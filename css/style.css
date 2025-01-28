@@ -3,11 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
-.container{
+.header-container{
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
   padding: 0 20px;
+}
+header{
+  background-color: #0A22F4;
 }
 .logo{
   max-width: 115px;
@@ -38,7 +41,7 @@ nav ul{
   width: 160px;
   height: 55px;
   background-color: #FFFFFF;
-  border-radius: 50px;
+  border-radius: 28px;
 }
 .div-nav-a{
   position: absolute;
@@ -55,4 +58,60 @@ nav ul{
   height: 1px; 
   background-color: white;
   margin: 5px auto 0 auto;
+}
+.section-container{
+  max-width: 1196px;
+  width: 100%;
+  margin: 0 auto;
+  transform: translatey(-172.56px);
+}
+.introduction-logo{
+  max-width: 1195px;
+  max-height: 600px;
+  margin-bottom: 30px;
+}
+h1{
+  font-size: 28px;
+  margin-bottom: 60px;
+}
+.example-photos{
+  max-width: 219px;
+  max-height: 219px;
+}
+.example-photos-flex-div{
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+.p-container{
+  max-width: 951px;
+  width: 100%;
+  margin: 0 auto;
+}
+.div-p{
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.p-margin-bottom{
+  margin-bottom: 58px;
+}
+.blue-button{
+  background-color: #0A22F4;
+  color: #FFFFFF;
+  font-size: 16px;
+  padding-top: 18px;
+  padding-right: 77px;
+  padding-bottom: 18px;
+  padding-left: 57px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  outline: none;
+}
+.button-container{
+  max-width: 341px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 180px;
 }
