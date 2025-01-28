@@ -259,8 +259,21 @@ textarea{
   padding-bottom: 60px;
 }
 .div-send{
-
+  display: flex;
+  flex-direction: row-reverse;
+  padding-top: 40px;
+  margin-bottom: 105px;
 }
 .button-send{
-
+  background-color: #FFFFFF;
+  color: #171717;
+  font-size: 16px;
+  padding-top: 18px;
+  padding-right: 45px;
+  padding-bottom: 18px;
+  padding-left: 36px;
+  border: none;
+  border-radius: 28px;
+  cursor: pointer;
+  outline: none;
 }
