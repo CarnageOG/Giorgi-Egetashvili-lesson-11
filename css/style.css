@@ -3,3 +3,56 @@
   padding: 0;
   box-sizing: border-box;
 }
+.container{
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.logo{
+  max-width: 115px;
+  max-height: 65px;
+}
+nav a{
+  font-size: 16px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  list-style: none;
+}
+.header-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0A22F4;
+  padding-top: 40px;
+  padding-bottom: 282.56px;
+}
+.contact-nav{
+  position: revert;
+  width: 160px;
+  height: 55px;
+  background-color: #FFFFFF;
+  border-radius: 50px;
+}
+.div-nav-a{
+  position: absolute;
+  padding-top: 18px;
+  padding-right: 36px;
+  padding-bottom: 18px;
+  padding-left: 36px;
+  color: #171717;
+}
+.underline::after {
+  content: '';
+  display: block;
+  width: 50%; 
+  height: 1px; 
+  background-color: white;
+  margin: 5px auto 0 auto;
+}
