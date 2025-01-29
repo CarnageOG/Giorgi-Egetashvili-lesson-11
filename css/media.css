@@ -76,7 +76,107 @@
   		transform: translatey(-50px);
 	}
 	h2{
+		font-size: 18px;
   		padding-top: 30px;
+  		margin-bottom: 0px;
+	}
+	.contact-p{
+		display: none;
+	}
+	.layout{
+		display: grid;
+	}
+	.footer-container{
+		max-width: 334px;
+		padding: 0px;
+	}
+	.registration{
+  		display: flex;
+ 		flex-direction: column;
+	}
+	form{
+		order: -1;
+		transform: translatey(0px);
+		max-width: 334px;
+  		width: 100%;
+	}
+	label{
+	  font-size: 13px;
+	  padding-top: 40px;
+	}
+	input{
+	  font-size: 13px;
+	}
+	textarea{
+	  font-size: 13px;
+	  padding-bottom: 0px;
+	}
+	.map {
+	  max-width: 334px;
+	  width: 100%;
+	  max-height: 180px;
+	  height: 100%;
+	  margin-top: 40px;
+	  margin-bottom: 40px;
+	}
+	.div-send{
+	  display: flex;
+	  justify-content: center;
+	  padding-top: 40px;
+	  margin-bottom: 105px;
+	  max-width: 334px;
+	  width: 100%;
+	  margin: 0 auto;
+}
+	}
+	.button-send{
+	  background-color: #FFFFFF;
+	  color: #171717;
+	  font-size: 13px;
+	  padding-top: 20px;
+	  padding-right: 143px;
+	  padding-bottom: 19px;
+	  padding-left: 135px;
+	  border: none;
+	  border-radius: 30px;
+	  cursor: pointer;
+	  outline: none;
+	  font-family: 'Helvetica Neue, Bold';
+	}
+	.ending{
+	  flex-direction: column;
+	  gap: 30px;
+	  padding-bottom: 30px;
+	}
+	.made{
+	  font-size: 13px;
+	  padding-right: 17.81px;
+	}
+	.order-flex{
+	  display: flex;
+	  flex-direction: column;
+	  order: 2;
+	}
+	.order-p{
+	  opacity: 0.6;
+	}
+	.width{
+	  font-size: 13px;
+	  padding-left: 13.51px;
+	  padding-right: 34.48px;
+	}
+	.heart-img{
+	  width: 19.69px;
+	  height: 16.62px;
+	}
+	.logo-img{
+	  width: 121px;
+	  height: 35px;
+	}
+	.logos{
+	  order: 1;
+	  display: flex;
+	  align-items: center;
 	}
 	
 }

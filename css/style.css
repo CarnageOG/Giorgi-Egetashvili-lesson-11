@@ -142,6 +142,12 @@ h1{
   margin: 0 auto;
   margin-bottom: 180px;
 }
+.footer-container{
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 16px;
+}
 footer{
   background-color: #0A22F4;
   transform: translatey(-172.56px);
@@ -158,6 +164,7 @@ h2{
   justify-content: space-between;
 }
 .footer-div{
+  order: 1;
   max-width: 463px;
   max-height: 99px;
 }
@@ -171,6 +178,9 @@ h2{
 .made{
   padding-right: 15px;
   font-family: 'Helvetica Neue, Bold';
+}
+.order-flex{
+  order: 1;
 }
 .width{
   padding-left: 10px;
@@ -186,6 +196,7 @@ h2{
   height: 35px;
 }
 .logos{
+  order: 2;
   display: flex;
   align-items: center;
 }
@@ -210,7 +221,7 @@ h2{
   align-items: center;
 }
 .email{
-   max-width: 306px;
+  max-width: 306px;
   max-height: 70px;
   display: flex;
   align-items: center;
@@ -246,6 +257,7 @@ h2{
   color: #FFFFFF;
 }
 .map {
+  order: 2;
   max-width: 463px;
   width: 100%;
   max-height: 197px;
@@ -255,6 +267,7 @@ h2{
   margin-bottom: 70px;
 }
 form{
+  order: 2;
   max-width: 463px;
   width: 100%;
   transform: translatey(-80px);
