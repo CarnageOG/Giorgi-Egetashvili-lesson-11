@@ -95,6 +95,10 @@ h1{
   margin-bottom: 60px;
   font-family: 'Helvetica Neue, Bold';
 }
+.section-p{
+  font-size: 16px;
+  color: #171717;
+}
 .example-photos{
   max-width: 219px;
   max-height: 219px;
@@ -110,6 +114,7 @@ h1{
   margin: 0 auto;
 }
 .div-p{
+  margin-top: 60px;
   display: flex;
   flex-direction: column;
   gap: 18px;
